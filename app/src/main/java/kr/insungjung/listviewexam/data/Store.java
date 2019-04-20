@@ -11,13 +11,13 @@ public class Store {
 //    위도/경도
 //    double latitude;
 //    double longitude;
-    public String adress;
+    public String address;
     public String openTime;
     public String closeTime;
 
     public Store(String name, String adress, String openTime, String closeTime) {
         this.name = name;
-        this.adress = adress;
+        this.address = adress;
         this.openTime = openTime;
         this.closeTime = closeTime;
     }
